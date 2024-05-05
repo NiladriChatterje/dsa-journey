@@ -19,18 +19,18 @@ Output: 23
 */
 
 
-function maxSub(arr){
-   let maxArr=[];
-  
-   for(let i=0;i<arr.length;i++){
-     for(let j=0;j<arr.length&&j+i+1!=undefined;j++){
-      maxArr.push(arr.slice(j,j+i+1).reduce((pr,cur)=>pr+cur));
-     }
-      
-   }
-return Math.max(...maxArr);
+function maxSub(arr) {
+  let maxArr = [];
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length && j + i + 1 != undefined; j++) {
+      maxArr.push(arr.slice(j, j + i + 1).reduce((pr, cur) => pr + cur));
+    }
+
+  }
+  return Math.max(...maxArr);
 }
 
-//console.log(maxSub([-2,1,-3,4,-1,2,1,-5,4]));
-//console.log(maxSub([1]));
+console.log(maxSub([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
+console.log(maxSub([1]));
 console.log(maxSub([]));
