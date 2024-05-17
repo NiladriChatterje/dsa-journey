@@ -1,116 +1,91 @@
-/*
-Determine if a 9 x 9 Sudoku board is valid. 
-Only the filled cells need to be validated
-according to the following rules:
 
-Each row must contain the digits 1-9 without repetition.
-Each column must contain the digits 1-9 without repetition.
-Each of the nine 3 x 3 sub-boxes of the grid must contain
- the digits 1-9 without repetition.
-Note:
+const isValidSudoku = (board) => {
+    const rowWise = new Map();
+    const columnWIse = new Map();
 
-A Sudoku board (partially filled) could be valid but is not necessarily 
-solvable.
-Only the filled cells need to be validated according to the mentioned rules.*/
+    for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+            if (board[i][j] !== ".") {
+                if (rowWise.has(`i${i}`))
+                    rowWise.set(`i${i}`, rowWise.get(`i${i}`)?.set(board[i][j], (rowWise.get(`i${i}`)?.get(board[i][j]) || 0) + 1))
+                else
+                    rowWise.set(`i${i}`, new Map().set(board[i][j], 1))
 
-var isValidSudoku = function(board) {
-    const mat={},matTrans={}
-    for(let i in board){
+            }
 
-        for(let j=1;j<=9;j++) mat[j]=0,matTrans[j]=0;
+            if (board[j][i] !== '.') {
+                if (columnWIse.has(`j${i}`))
+                    columnWIse.set(`j${i}`, columnWIse.get(`j${i}`)?.set(board[j][i], (columnWIse.get(`j${i}`)?.get(board[j][i]) || 0) + 1))
+                else
+                    columnWIse.set(`j${i}`, new Map().set(board[j][i], 1))
 
-        for(let j in board){
-            if(board[i][j] in mat) mat[board[i][j]] += 1;
-            if(board[j][i] in matTrans) matTrans[board[j][i]] += 1;}
+            }
 
-        for(let j in board) if(mat[board[i][j]]>=2 || matTrans[board[j][i]]>=2) return false;
-    }
-    for(let j=1;j<=9;j++)mat[j]=0
-    for(let i=0;i<3;i++){
-        for(let j=0;j<3;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
 
-        for(let j in board) if((mat[board[i][j]])>=2) return false;
-    }    
-    for(let j=1;j<=9;j++)mat[j]=0
-    for(let i=0;i<3;i++){
-        for(let j=3;j<6;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
-            
-        for(let j in board)if((mat[board[i][j]])>=2) return false;
+        }
     }
 
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=0;i<3;i++){       
-        for(let j=6;j<9;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
-       
-        for(let j in board) if(mat[board[i][j]]>1) return false;
-    }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=3;i<6;i++){ 
-        for(let j=0;j<3;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
 
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
+    for (let i = 0; i < 9; i++) {
+        for (let j = 0; j < 9; j++) {
+            if (rowWise.get(`i${i}`)?.get(board[i][j]) > 1 ||
+                columnWIse.get(`j${i}`)?.get(board[i][j]) > 1
+            ) return false;
+        }
     }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=3;i<6;i++){  
-        for(let j=3;j<6;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
-            
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
-    }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=3;i<6;i++){
-    for(let j=6;j<9;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;        
+    return true;
+}
 
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
-    }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=6;i<9;i++){
-        for(let j=0;j<3;j++)if(board[i][j] in mat) mat[board[i][j]] += 1
-            
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
-    }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=6;i<9;i++){
-        for(let j=3;j<6;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;    
+// console.log(isValidSudoku([["5", "3", ".", ".", "7", ".", ".", ".", "."]
+//     , ["6", ".", ".", "1", "9", "5", ".", ".", "."]
+//     , [".", "9", "8", ".", ".", ".", ".", "6", "."]
+//     , ["8", ".", ".", ".", "6", ".", ".", ".", "3"]
+//     , ["4", ".", ".", "8", ".", "3", ".", ".", "1"]
+//     , ["7", ".", ".", ".", "2", ".", ".", ".", "6"]
+//     , [".", "6", ".", ".", ".", ".", "2", "8", "."]
+//     , [".", ".", ".", "4", "1", "9", ".", ".", "5"]
+//     , [".", ".", ".", ".", "8", ".", ".", "7", "9"]]));
 
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
-    }
-    for(let j=1;j<=9;j++) mat[j]=0
-    for(let i=6;i<9;i++){     
-        for(let j=6;j<9;j++)if(board[i][j] in mat) mat[board[i][j]] += 1;
+// console.log(isValidSudoku([["8", "3", ".", ".", "7", ".", ".", ".", "."]
+//     , ["6", ".", ".", "1", "9", "5", ".", ".", "."]
+//     , [".", "9", "8", ".", ".", ".", ".", "6", "."]
+//     , ["8", ".", ".", ".", "6", ".", ".", ".", "3"]
+//     , ["4", ".", ".", "8", ".", "3", ".", ".", "1"]
+//     , ["7", ".", ".", ".", "2", ".", ".", ".", "6"]
+//     , [".", "6", ".", ".", ".", ".", "2", "8", "."]
+//     , [".", ".", ".", "4", "1", "9", ".", ".", "5"]
+//     , [".", ".", ".", ".", "8", ".", ".", "7", "9"]]));
 
-        for(let j in board) if(mat[board[i][j]]>=2) return false;
-    }
- 
-return true;
-};
+// console.log(isValidSudoku([[".", ".", ".", ".", "5", ".", ".", "1", "."],
+// [".", "4", ".", "3", ".", ".", ".", ".", "."],
+// [".", ".", ".", ".", ".", "3", ".", ".", "1"],
+// ["8", ".", ".", ".", ".", ".", ".", "2", "."],
+// [".", ".", "2", ".", "7", ".", ".", ".", "."],
+// [".", "1", "5", ".", ".", ".", ".", ".", "."],
+// [".", ".", ".", ".", ".", "2", ".", ".", "."],
+// [".", "2", ".", "9", ".", ".", ".", ".", "."],
+// [".", ".", "4", ".", ".", ".", ".", ".", "."]]
+// ))
 
-console.log(isValidSudoku([  ["5","3",".",".","7",".",".",".","."]
-                            ,["6",".",".","1","9","5",".",".","."]
-                            ,[".","9","8",".",".",".",".","6","."]
-                            ,["8",".",".",".","6",".",".",".","3"]
-                            ,["4",".",".","8",".","3",".",".","1"]
-                            ,["7",".",".",".","2",".",".",".","6"]
-                            ,[".","6",".",".",".",".","2","8","."]
-                            ,[".",".",".","4","1","9",".",".","5"]
-                            ,[".",".",".",".","8",".",".","7","9"]]));
-
-console.log(isValidSudoku([["8","3",".",".","7",".",".",".","."]
-                            ,["6",".",".","1","9","5",".",".","."]
-                            ,[".","9","8",".",".",".",".","6","."]
-                            ,["8",".",".",".","6",".",".",".","3"]
-                            ,["4",".",".","8",".","3",".",".","1"]
-                            ,["7",".",".",".","2",".",".",".","6"]
-                            ,[".","6",".",".",".",".","2","8","."]
-                            ,[".",".",".","4","1","9",".",".","5"]
-                            ,[".",".",".",".","8",".",".","7","9"]]));
-
-console.log(isValidSudoku([ [".",".",".",".","5",".",".","1","."],
-                            [".","4",".","3",".",".",".",".","."],
-                            [".",".",".",".",".","3",".",".","1"],
-                            ["8",".",".",".",".",".",".","2","."],
-                            [".",".","2",".","7",".",".",".","."],
-                            [".","1","5",".",".",".",".",".","."],
-                            [".",".",".",".",".","2",".",".","."],
-                            [".","2",".","9",".",".",".",".","."],
-                            [".",".","4",".",".",".",".",".","."]]
-                            ))
+// console.log(isValidSudoku([
+//     [".", ".", "5", ".", ".", ".", ".", ".", "."],
+//     ["1", ".", ".", "2", ".", ".", ".", ".", "."],
+//     [".", ".", "6", ".", ".", "3", ".", ".", "."],
+//     ["8", ".", ".", ".", ".", ".", ".", ".", "."],
+//     ["3", ".", "1", "5", "2", ".", ".", ".", "."],
+//     [".", ".", ".", ".", ".", ".", ".", "4", "."],
+//     [".", ".", "6", ".", ".", ".", ".", ".", "."],
+//     [".", ".", ".", ".", ".", ".", ".", "9", "."],
+//     [".", ".", ".", ".", ".", ".", ".", ".", "."]]
+// ))
+console.log(isValidSudoku([
+    [".", ".", ".", ".", "5", ".", ".", "1", "."],
+    [".", "4", ".", "3", ".", ".", ".", ".", "."],
+    [".", ".", ".", ".", ".", "3", ".", ".", "1"],
+    ["8", ".", ".", ".", ".", ".", ".", "2", "."],
+    [".", ".", "2", ".", "7", ".", ".", ".", "."],
+    [".", "1", "5", ".", ".", ".", ".", ".", "."],
+    [".", ".", ".", ".", ".", "2", ".", ".", "."],
+    [".", "2", ".", "9", ".", ".", ".", ".", "."],
+    [".", ".", "4", ".", ".", ".", ".", ".", "."]]
+))
