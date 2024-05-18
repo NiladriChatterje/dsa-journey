@@ -5,13 +5,12 @@ const rotate = function (matrix) {
         matrix[i] = matrix[matrix.length - 1 - i];
         matrix[matrix.length - 1 - i] = swap;
     }
-    let temp
+
     for (let i = 0; i < matrix.length; i++)
         for (let j = i; j < matrix.length; j++) {
-            temp = matrix[i][j];
-
+            swap = matrix[i][j];
             matrix[i][j] = matrix[j][i];
-            matrix[j][i] = temp
+            matrix[j][i] = swap
         }
 
 
