@@ -38,23 +38,9 @@ const longestPalindrome = function (s) {
     let last_res = ''
 
     while (i < s.length) {
-        r = s.length - 1;
+        if (s[i])
 
-        while (r >= i) {
-            if (s[i] === s[r]) {
-                result += s[i];
-                if (i !== r)
-                    reverse_res += s[r]
-            }
-            else {
-                last_res = result + reverse_res
-                result = '';
-                reverse_res = '';
-            }
-            r--
-        }
-
-        i++
+            i++
     }
     return result.length > last_res.length ? result : last_res
 };
