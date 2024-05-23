@@ -36,7 +36,6 @@ function maxSubArray(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     sum += arr[i];
-
     if (arr[i] > sum)
       sum = arr[i];
     if (largest < sum)
