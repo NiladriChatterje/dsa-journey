@@ -8,10 +8,10 @@ var subarraysDivByK = function (nums, k) {
     for (let i of nums) {
         sum += i;
 
-        if (sum % k === 0 || map.has(sum % k))
+        if (sum % k === 0 || map.has(Math.abs(sum % k)))
             count += map.get(sum % k) ?? 1;
 
-        map.set(sum % k, (map.get(sum % k) ?? 0) + 1)
+        map.set(Math.abs(sum % k), (map.get(Math.abs(sum % k)) ?? 0) + 1)
     }
     return count;
 };
