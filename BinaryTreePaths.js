@@ -6,14 +6,14 @@ class TreeNode {
     }
 }
 var binaryTreePaths = function (root = new TreeNode(), res = '', arr = []) {
-    if (root.left === null && root.right === null) { res += root.value; arr.push(res); return }
+    if (root.left === null && root.right === null) { res += root.value; arr.push(res); return arr }
     if (root.left === null) {
         binaryTreePaths(root.right, res + root.value + '->', arr);
-        return;
+        return arr;
     }
     if (root.right === null) {
         binaryTreePaths(root.left, res + root.value + '->', arr);
-        return
+        return arr
     }
     binaryTreePaths(root.left, res + root.value + '->', arr);
     binaryTreePaths(root.right, res + root.value + '->', arr);
@@ -26,4 +26,5 @@ temp.left = new TreeNode(2);
 temp.right = new TreeNode(3);
 temp = temp.left;
 temp.right = new TreeNode(5);
-console.log(binaryTreePaths(head))
+console.log(binaryTreePaths(head));
+
