@@ -10,11 +10,10 @@ var findMaximizedCapital = function (k, w, profits, capital) {
         max = 0;
         indexTrack = -1
         for (let j = 0; j < capital.length; j++)
-            if (capital[j] <= w && arr[j])
-                if (max < profits[j] && arr[j]) {
-                    max = profits[j];
-                    indexTrack = j;
-                }
+            if (capital[j] <= w && arr[j] && max < profits[j]) {
+                max = profits[j];
+                indexTrack = j;
+            }
         if (indexTrack === -1) break;
         arr[indexTrack] = false;
         w += max;
