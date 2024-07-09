@@ -3,7 +3,7 @@ var numWaterBottles = function (numBottles, numExchange) {
     let fullBottle = numBottles;
     let remainderEmpty = numBottles % numExchange;
     let eval = 0;
-    while (parseInt(fullBottle / numExchange) > 0) {
+    while (fullBottle > 0) {
         eval = parseInt(fullBottle / numExchange)
         numBottles += eval;
         remainderEmpty += eval;
