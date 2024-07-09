@@ -5,5 +5,5 @@ var averageWaitingTime = function (customers) {
         track = arrival > track ? arrival + preparation : track + preparation;
         sum += track - arrival;
     }
-    return (sum / customers.length).toFixed(5);
+    return (sum / customers.length);
 };
