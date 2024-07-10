@@ -1,18 +1,31 @@
 const longestConsecutive = function (nums) {
     if (nums.length === 0) return 0;
-    const set = Array.from(new Set(nums));
 
-    let longestConsecutiveCount = 0, prev = 1;
-    for (let i of set) {
-        let integer = parseInt(i)
-        if (set.includes(integer - 1) || set.includes(integer + 1)) prev++;
-        else {
-            longestConsecutiveCount = (prev > longestConsecutiveCount) ? prev : longestConsecutiveCount;
-            prev = 1;
+    const map = new Map();
+
+    for (let i of nums)
+        map.set(i, true);
+
+    let max = 1;
+    let count = 1;
+    let elementNextPrev;
+
+    for (let i of nums) {
+        if (map.has(i - 1))
+            continue;
+        count = 1
+        elementNextPrev = i + 1;
+        while (map.has(elementNextPrev)) {
+            count++;
+            elementNextPrev++;
         }
+
+        map.set(i, true);
+        max = Math.max(max, count)
+
     }
-    longestConsecutiveCount = (prev > longestConsecutiveCount) ? prev : longestConsecutiveCount;
-    return longestConsecutiveCount;
+
+    return max;
 };
 
 console.log(longestConsecutive([100, 4, 200, 1, 3, 2]))

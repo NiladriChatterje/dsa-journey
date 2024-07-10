@@ -36,32 +36,31 @@
 
 //O(n)
 function nextPermutation(nums) {
-    let ind1 = -1;
-    let ind2 = -1;
+    let idx1 = -1;
+    let idx2 = -1;
 
     for (let i = nums.length - 2; i >= 0; i--)
         if (nums[i] < nums[i + 1]) {
-            ind1 = i;
+            idx1 = i;
             break;
         }
 
 
-    if (ind1 == -1)
+    if (idx1 == -1)
         nums.reverse();
     else {
         for (let i = nums.length - 1; i >= 0; i--)
-            if (nums[i] > nums[ind1]) {
-                ind2 = i;
+            if (nums[i] > nums[idx1]) {
+                idx2 = i;
                 break;
             }
 
-        nums[ind1] += nums[ind2];
-        nums[ind2] = nums[ind1] - nums[ind2];
-        nums[ind1] -= nums[ind2];
+        nums[idx1] += nums[idx2];
+        nums[idx2] = nums[idx1] - nums[idx2];
+        nums[idx1] -= nums[idx2];
 
-        for (let i = ind1 + 1, j = nums.length - 1; i < j; i++, j--)
+        for (let i = idx1 + 1, j = nums.length - 1; i < j; i++, j--)
             [nums[i], nums[j]] = [nums[j], nums[i]]
-
 
     }
     return nums
