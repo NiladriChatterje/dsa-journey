@@ -28,7 +28,9 @@ const nextPermutation = (nums) => {
             break;
         index++;
     }
-    const finalResult = [...allPermutations[(index + 1) % allPermutations.length]]
+    const finalResult = allPermutations[(index + 1) % allPermutations.length]
+    nums.length = 0;
+    nums.push(...finalResult)
     return finalResult;
 };
 
