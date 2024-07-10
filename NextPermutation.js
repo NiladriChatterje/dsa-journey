@@ -1,34 +1,37 @@
-const nextPermutation = (nums) => {
-    let j;
-    let k = 0;
-    let secondMin = Infinity, min = 200, index = -1;
-    for (let i = nums.length - 1; i > 0; i--) {
-        if (nums[i] > nums[i - 1]) {
-            j = i, k = 0
-            while (j < nums.length - 1 - k) {
-                if (nums[nums.length - 1 - k] < min && min > nums[i - 1] && min < secondMin) {
-                    secondMin = min;
-                    min = nums[nums.length - 1 - k];
-                    index = j;
-                }
-                nums[j] += nums[nums.length - 1 - k];
-                nums[nums.length - 1 - k] = nums[j] - nums[nums.length - 1 - k];
-                nums[j] -= nums[nums.length - 1 - k];
-                k++;
-                j++
-            }
-            if (index != 1) {
-                nums[i - 1] += nums[index];
-                nums[index] = nums[i - 1] - nums[index];
-                nums[i - 1] -= nums[index]
-            }
-            index = -1;
+function preparingAllPermutations(nums, result = [], arr = [], indexMap = new Map(), map = new Map()) {
 
-            return nums;
-        }
+    if (arr.length === nums.length) {
+        if (map.has(`${arr}`))
+            return result;
+        map.set(`${arr}`, 1);
+        result.push([...arr]);
     }
 
-    return nums.reverse()
+    for (let i = 0; i < nums.length; i++) {
+        if (indexMap.has(i)) continue;
+        arr.push(nums[i]);
+        indexMap.set(i, true);
+        preparingAllPermutations(nums, result, arr, indexMap, map);
+        indexMap.delete(i);
+        arr.pop();
+    }
+    return result;
+}
+
+const nextPermutation = (nums) => {
+    const str = `${nums}`;
+    nums.sort((a, b) => a - b);
+    let index = 0;
+    const allPermutations = preparingAllPermutations(nums);
+    for (let i of allPermutations) {
+        if (`${i}` === str)
+            break;
+        index++;
+    }
+    const finalResult = [...allPermutations[(index + 1) % allPermutations.length]]
+    return finalResult;
 };
 
-console.log(nextPermutation([1, 3, 2]));
+console.log(nextPermutation([1, 2, 3]));
+console.log(nextPermutation([3, 2, 1]));
+console.log(nextPermutation([1, 1, 5]));
