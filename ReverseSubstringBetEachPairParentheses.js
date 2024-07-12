@@ -3,7 +3,6 @@ var reverseParentheses = function (s) {
     let len = charArray.length;
     let temp;
     let newwestParen;
-    const result = [];
     const stack = [];
     let j = 0;
     for (let i = 0; i < len; i++) {
@@ -12,9 +11,9 @@ var reverseParentheses = function (s) {
 
         if (charArray[i] === ')') {
             j = i - 1;
-            charArray[i] = '\0';
+            charArray[i] = '';
             newwestParen = stack.pop();
-            charArray[newwestParen] = '\0';
+            charArray[newwestParen] = '';
             let k = 1;
             while (j > newwestParen + parseInt((i - newwestParen) / 2)) {
 
@@ -26,11 +25,7 @@ var reverseParentheses = function (s) {
             }
         }
     }
-    for (let i of charArray)
-        if (i !== '\0')
-            result.push(i)
-
-    return result.join('')
+    return charArray.join('')
 };
 console.log(reverseParentheses("(abcd)"))
 console.log(reverseParentheses("(u(love)i)"))
