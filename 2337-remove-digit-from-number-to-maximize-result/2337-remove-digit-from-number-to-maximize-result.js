@@ -1,4 +1,3 @@
-
 var removeDigit = function (number, digit) {
     const charArr = number.split('');
     let left = 0;
@@ -17,7 +16,8 @@ var removeDigit = function (number, digit) {
                     arr.push(charArr[left]);
                     left++;
                 }
-               return arr.join('');
+                track = -1;
+                break;
             } else {
                 track = left - 1;
                 arr.push(charArr[track])
