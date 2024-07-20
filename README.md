@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -23,4 +24,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+## Enumeration
+|  |
+| ------- |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 <!---LeetCode Topics End-->
