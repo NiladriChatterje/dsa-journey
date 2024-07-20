@@ -1,18 +1,22 @@
-function longestCommonSubsequence(string1, string2, index_1 = 0, index_2 = 0,
-    dp = new Map()) {
-    if (dp.has(`${index_1},${index_2}`))
-        return dp.get(`${index_1},${index_2}`);
+/**
+ * @param {string} text1
+ * @param {string} text2
+ * @return {number}
+ */
+var longestCommonSubsequence = function (text1, text2, dpGrid = new Map()) {
+    text1Length = text1.length;
+    text2Length = text2.length;
 
-    if (index_1 >= string1.length || index_2 >= string2.length) return 0;
-    if (string1[index_1] === string2[index_2]) {
-        let res = longestCommonSubsequence(string1, string2, index_1 + 1, index_2 + 1, dp) + 1
-        dp.set(`${index_1},${index_2}`, res);
-        return res
+    for (let row = 1; row <= text1Length; row++) {
+        for (let col = 1; col <= text2Length; col++) {
+            if (text1[row - 1] === text2[col - 1]) 
+                dpGrid.set(`${row},${col}`,(dpGrid.get(`${row - 1},${col-1}`)??0)+1);
+            else 
+                dpGrid.set(`${row},${col}`,Math.max(dpGrid.get(`${row - 1},${col}`)??0, 
+                dpGrid.get(`${row},${col-1}`)??0));
+            
+        }
     }
-    let res = Math.max(longestCommonSubsequence(string1, string2, index_1 + 1, index_2, dp)
-        , longestCommonSubsequence(string1, string2, index_1, index_2 + 1, dp));
 
-    dp.set(`${index_1},${index_2}`, res);
-
-    return res
-}
+    return dpGrid.get(`${text1Length},${text2Length}`);
+};
