@@ -1,24 +1,18 @@
-/**
- * @param {string} text1
- * @param {string} text2
- * @return {number}
- */
-var longestCommonSubsequence = function(text1, text2) {
+function longestCommonSubsequence(string1, string2, index_1 = 0, index_2 = 0,
+    dp = new Map()) {
+    if (dp.has(`${index_1},${index_2}`))
+        return dp.get(`${index_1},${index_2}`);
 
-    const length1 = text1.length;
-    const length2 = text2.length
-    const dp = Array.from({ length: length1 + 1 }, () => Array(length2 + 1).fill(0));
-
-    for (let i = 1; i <= length1; ++i) {
-        for (let j = 1; j <= length2; ++j) {
-         
-            if (text1[i - 1] === text2[j - 1]) 
-                dp[i][j] = dp[i - 1][j - 1] + 1;
-             else 
-                dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-            
-        }
+    if (index_1 >= string1.length || index_2 >= string2.length) return 0;
+    if (string1[index_1] === string2[index_2]) {
+        let res = longestCommonSubsequence(string1, string2, index_1 + 1, index_2 + 1, dp) + 1
+        dp.set(`${index_1},${index_2}`, res);
+        return res
     }
+    let res = Math.max(longestCommonSubsequence(string1, string2, index_1 + 1, index_2, dp)
+        , longestCommonSubsequence(string1, string2, index_1, index_2 + 1, dp));
 
-    return dp[length1][length2];
-};
+    dp.set(`${index_1},${index_2}`, res);
+
+    return res
+}
