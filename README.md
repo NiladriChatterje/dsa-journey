@@ -14,11 +14,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
 ## Greedy
 |  |
@@ -29,4 +31,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
