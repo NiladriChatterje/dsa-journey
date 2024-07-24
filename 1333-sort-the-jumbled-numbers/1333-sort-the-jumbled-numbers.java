@@ -20,7 +20,6 @@ class Solution {
             }
         });
 
-        // Step 3: Create a result array and fill it with the sorted original nums
         int[] sortedNums = new int[nums.length];
         for (int i = 0; i < mappedList.size(); i++) {
             sortedNums[i] = mappedList.get(i)[0];
