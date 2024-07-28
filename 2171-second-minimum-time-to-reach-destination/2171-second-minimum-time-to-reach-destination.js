@@ -5,53 +5,42 @@
  * @param {number} change
  * @return {number}
  */
-const initializeGraph = (n) => {
-    let G = new Array(n).fill(null).map(() => []);
-    return G;
-};
+var secondMinimum = function(n, edges, time, change) {
+    const graph = Array.from({ length: n + 1 }, () => []);
 
-const addEdgeToG = (G, Edges) => {
-    for (const [u, v] of Edges) {
-        G[u].push(v);
-        G[v].push(u);
+    for (const [u, v] of edges) {
+        graph[u].push(v);
+        graph[v].push(u);
     }
-};
+    const dist1 = new Array(n + 1).fill(-1);
+    const dist2 = new Array(n + 1).fill(-1);
+    dist1[1] = 0;
+    const queue = [[1, 1]]; 
 
-const secondMinimum = (n, edges, time, change) => {
-    let adj = initializeGraph(n + 1);
-    addEdgeToG(adj, edges);
+    while (queue.length > 0) {
+        const [x, freq] = queue.shift();
+        const t = freq === 1 ? dist1[x] : dist2[x];
 
-    // Array to store costs with max length of 2
-    let cost = Array.from({ length: n + 1 }, () => []);
-    let pq = new MinPriorityQueue({ priority: x => x[0] });
-    pq.enqueue([0, 1]);
-
-    let green = 2 * change;
-
-    while (pq.size()) {
-        let [t, node] = pq.dequeue().element;
-        if (cost[node].length === 2) continue;
-
-        let nextT = t % green < change ? t : Math.floor((t + green - 1) / green) * green;
-
-        if (node === n) {
-            if (cost[node].length === 0 || cost[node][cost[node].length - 1] !== t) {
-                cost[node].push(t);
-            } else {
-                continue;
-            }
+        let newTime;
+        if (Math.floor(t / change) % 2 !== 0) {
+            newTime = change * (Math.floor(t / change) + 1) + time;
         } else {
-            if (cost[node].length === 0 || cost[node][cost[node].length - 1] !== nextT) {
-                cost[node].push(nextT);
-            } else {
-                continue;
-            }
+            newTime = t + time;
         }
 
-        for (const next_node of adj[node]) {
-            pq.enqueue([nextT + time, next_node]);
+        for (const y of graph[x]) {
+            if (dist1[y] === -1) {
+                dist1[y] = newTime;
+                queue.push([y, 1]);
+            } else if (dist2[y] === -1 && dist1[y] !== newTime) {
+                if (y === n) {
+                    return newTime;
+                }
+                dist2[y] = newTime;
+                queue.push([y, 2]);
+            }
         }
     }
 
-    return cost[n][1];
+    return 0;
 };
