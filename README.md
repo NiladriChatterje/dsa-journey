@@ -126,4 +126,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+## Math
+|  |
+| ------- |
+| [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
+## Number Theory
+|  |
+| ------- |
+| [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
 <!---LeetCode Topics End-->
