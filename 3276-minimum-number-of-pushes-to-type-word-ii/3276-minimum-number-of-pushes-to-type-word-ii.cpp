@@ -1,20 +1,20 @@
+#include <execution>
+auto f = [] {
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    return 0;
+}();
 class Solution {
 public:
-    static  void print(auto& c){
-        for(int x: c) cout<<x<<", "; 
-        cout<<endl;
-    }
-    static int minimumPushes(string& word) {
-        int freq[26]={0};
-        for(char c: word) 
-            freq[c-'a']++;
-        nth_element(freq, freq+7, end(freq), greater<int>());
-        nth_element(freq+8, freq+15, end(freq), greater<int>());
-        nth_element(freq+16, freq+23, end(freq), greater<int>());
-
-        int i=0; 
-        return accumulate(freq, freq+26, 0,  [&i](int sum, int f){
-            return sum+=(f*(i++/8+1));
+    int minimumPushes(string word) {
+        array<int, 26> f {};
+        for (char c : word) {
+            f[c - 'a']++;
+        }
+        sort(execution::par_unseq, f.begin(), f.end(), greater{});
+        return transform_reduce(execution::par_unseq, f.begin(), f.end(), 0, plus{}, [f = &f[0]](int const& x) { 
+            int i = &x - f;
+            return x * (i / 8 + 1);
         });
     }
 };
