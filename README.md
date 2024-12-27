@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0040-combination-sum-ii) |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
+| [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/NiladriChatterje/dsa-journey/tree/master/1196-filling-bookcase-shelves) |
 | [1333-sort-the-jumbled-numbers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/NiladriChatterje/dsa-journey/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [0264-ugly-number-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0264-ugly-number-ii) |
 | [0664-strange-printer](https://github.com/NiladriChatterje/dsa-journey/tree/master/0664-strange-printer) |
+| [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/NiladriChatterje/dsa-journey/tree/master/1196-filling-bookcase-shelves) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/NiladriChatterje/dsa-journey/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
