@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1502-construct-k-palindrome-strings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1502-construct-k-palindrome-strings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Enumeration
 |  |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 ## Graph
 |  |
 | ------- |
@@ -104,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Divide and Conquer
