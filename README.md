@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/NiladriChatterje/dsa-journey/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/NiladriChatterje/dsa-journey/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Topological Sort
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
 ## Hash Table
 |  |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Breadth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/NiladriChatterje/dsa-journey/tree/master/2171-second-minimum-time-to-reach-destination) |
 ## Binary Indexed Tree
 |  |
@@ -188,4 +191,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NiladriChatterje/dsa-journey/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+## Depth-First Search
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
