@@ -3,7 +3,7 @@
  * @return {string}
  */
 var makeFancyString = function(s) {
-    const result = [];
+    const result = new Array(s.length);
 
     for(let i=0;i<s.length-2;i++){
         if(s.charAt(i)==s.charAt(i+1) && s.charAt(i+1)==s.charAt(i+2))
