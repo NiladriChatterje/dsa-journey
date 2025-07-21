@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [0664-strange-printer](https://github.com/NiladriChatterje/dsa-journey/tree/master/0664-strange-printer) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
+| [1302-delete-characters-to-make-fancy-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1502-construct-k-palindrome-strings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1502-construct-k-palindrome-strings) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/NiladriChatterje/dsa-journey/tree/master/1756-minimum-deletions-to-make-string-balanced) |
