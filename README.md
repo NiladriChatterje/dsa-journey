@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0040-combination-sum-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NiladriChatterje/dsa-journey/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
 | [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
@@ -59,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/NiladriChatterje/dsa-journey/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0264-ugly-number-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0264-ugly-number-ii) |
 | [0664-strange-printer](https://github.com/NiladriChatterje/dsa-journey/tree/master/0664-strange-printer) |
 | [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
