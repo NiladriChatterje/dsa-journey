@@ -5,11 +5,9 @@
 var maxSum = function (nums) {
     const set = new Set();
     let prev_negativeNum = 0;
-    let max = Math.max(...nums);
+    let flag = false;
+    let maxNeg = -101;
     let sum = 0;
-
-    if(max<0)
-        return max;
 
     for (let i of nums) {
         if (set.has(i))
@@ -22,10 +20,15 @@ var maxSum = function (nums) {
                 sum += i;
                 prev_negativeNum = i;
             }
+            maxNeg = Math.max(maxNeg,i);
         }
-        else
-         sum += i;
+        else{
+            flag = true;
+            sum += i;
+         }
     }
 
+    if(!flag)
+        return maxNeg
     return sum;
 };
