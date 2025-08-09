@@ -1,12 +1,12 @@
 class Solution {
     public boolean isPowerOfTwo(int n) {
         if(n==1) return true;
-        if(n==0) return false;
+        if(n<=0) return false;
 
-        while(n%2==0)
-            n /= 2;
-            
+       double x = Math.log10(n)/Math.log10(2);
+       int a = (int)Math.floor(x);            
+       int b = (int)Math.ceil(x);            
 
-        return n==1;
+        return a==b;
     }
 }
