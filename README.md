@@ -244,4 +244,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/0231-power-of-two) |
+## Database
+|  |
+| ------- |
+| [0177-nth-highest-salary](https://github.com/NiladriChatterje/dsa-journey/tree/master/0177-nth-highest-salary) |
 <!---LeetCode Topics End-->
