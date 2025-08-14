@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
+| [2346-largest-3-same-digit-number-in-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
