@@ -3,9 +3,9 @@
  * @return {number}
  */
 var minimumArea = function(grid) {
-    let leftMost = grid[0].length;
+    let leftMost = 1001;
     let rightMost = -1;
-    let upperMost = grid.length;
+    let upperMost = 1001;
     let lowerMost=-1;
 
     for(let i=0;i<grid.length;i++){
@@ -17,7 +17,6 @@ var minimumArea = function(grid) {
                 upperMost = Math.min(upperMost,i);
                 lowerMost = Math.max(lowerMost,i+1);
             }
-            // console.log(leftMost,rightMost,upperMost,lowerMost)
         }
     }
 
