@@ -1,3 +1,7 @@
+/**
+ * @param {character[][]} board
+ * @return {boolean}
+ */
 const isValidSudoku = (board) => {
     const obj = {rows: {},columns: {},blocks: {},};
     let isValid = true;
