@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3396-valid-word](https://github.com/NiladriChatterje/dsa-journey/tree/master/3396-valid-word) |
+| [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NiladriChatterje/dsa-journey/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
+| [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
 ## Number Theory
 |  |
 | ------- |
@@ -261,4 +263,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0177-nth-highest-salary](https://github.com/NiladriChatterje/dsa-journey/tree/master/0177-nth-highest-salary) |
+## Brainteaser
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
