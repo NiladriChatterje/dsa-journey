@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [0664-strange-printer](https://github.com/NiladriChatterje/dsa-journey/tree/master/0664-strange-printer) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/NiladriChatterje/dsa-journey/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1502-construct-k-palindrome-strings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1502-construct-k-palindrome-strings) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/NiladriChatterje/dsa-journey/tree/master/0036-valid-sudoku) |
 | [0264-ugly-number-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0264-ugly-number-ii) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/NiladriChatterje/dsa-journey/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1502-construct-k-palindrome-strings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1502-construct-k-palindrome-strings) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/1741-sort-array-by-increasing-frequency) |
