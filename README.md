@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/NiladriChatterje/dsa-journey/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/NiladriChatterje/dsa-journey/tree/master/0036-valid-sudoku) |
 | [0040-combination-sum-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0040-combination-sum-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NiladriChatterje/dsa-journey/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -88,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/NiladriChatterje/dsa-journey/tree/master/0011-container-with-most-water) |
 | [1502-construct-k-palindrome-strings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1502-construct-k-palindrome-strings) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -103,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/NiladriChatterje/dsa-journey/tree/master/0011-container-with-most-water) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
