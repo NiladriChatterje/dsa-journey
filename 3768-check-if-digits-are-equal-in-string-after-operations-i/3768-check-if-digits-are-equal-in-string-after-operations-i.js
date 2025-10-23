@@ -17,8 +17,6 @@
         }
     }
 var hasSameDigits = function(s) {
-
-
     let temp = s.split("").map(item=>strToDigit(item));
     let temp2 = [];
     while(temp.length !== 2){
