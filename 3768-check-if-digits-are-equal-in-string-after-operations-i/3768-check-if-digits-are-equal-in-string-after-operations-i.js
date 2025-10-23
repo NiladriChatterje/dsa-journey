@@ -2,7 +2,6 @@
  * @param {string} s
  * @return {boolean}
  */
-var hasSameDigits = function(s) {
     const strToDigit = (d)=>{
         switch(d){
             case '0': return 0;
@@ -17,6 +16,7 @@ var hasSameDigits = function(s) {
             case '9': return 9;
         }
     }
+var hasSameDigits = function(s) {
 
 
     let temp = s.split("").map(item=>strToDigit(item));
