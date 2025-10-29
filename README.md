@@ -229,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
 | [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Number Theory
 |  |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/NiladriChatterje/dsa-journey/tree/master/0342-power-of-four) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Recursion
 |  |
 | ------- |
