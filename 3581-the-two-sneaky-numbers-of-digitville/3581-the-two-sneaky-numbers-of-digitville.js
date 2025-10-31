@@ -3,15 +3,18 @@
  * @return {number[]}
  */
 var getSneakyNumbers = function(nums) {
-    const res = new Array(2);
-    let ind = 0;
-    const set = new Set();
-    for(let i of nums){
-        if(set.has(i))
-            res[ind++] = i;
-        if(ind == 2)
-            break;
-        set.add(i);}
-
-    return res;
+    let numsObject = {};
+    let sneakyNumbers = [];
+    for(let i = 0; i < nums.length; i++) {
+        if(numsObject.hasOwnProperty(nums[i])) {
+            sneakyNumbers.push(nums[i]);
+            if(sneakyNumbers.length === 2) {
+                break;
+            }
+        }
+        else {
+            numsObject[nums[i]] = 1;
+        }
+    }
+    return sneakyNumbers;
 };
