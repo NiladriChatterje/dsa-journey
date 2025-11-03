@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/NiladriChatterje/dsa-journey/tree/master/0830-largest-triangle-area) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NiladriChatterje/dsa-journey/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
 | [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/NiladriChatterje/dsa-journey/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
