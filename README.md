@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/NiladriChatterje/dsa-journey/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/NiladriChatterje/dsa-journey/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/NiladriChatterje/dsa-journey/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/NiladriChatterje/dsa-journey/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3678-design-task-manager](https://github.com/NiladriChatterje/dsa-journey/tree/master/3678-design-task-manager) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/NiladriChatterje/dsa-journey/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3827-implement-router](https://github.com/NiladriChatterje/dsa-journey/tree/master/3827-implement-router) |
@@ -180,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0264-ugly-number-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0264-ugly-number-ii) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 | [3678-design-task-manager](https://github.com/NiladriChatterje/dsa-journey/tree/master/3678-design-task-manager) |
 ## Merge Sort
 |  |
@@ -229,6 +232,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/NiladriChatterje/dsa-journey/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1813-maximum-erasure-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/1813-maximum-erasure-value) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
+| [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
 ## Math
 |  |
 | ------- |
