@@ -97,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1511-count-number-of-teams](https://github.com/NiladriChatterje/dsa-journey/tree/master/1511-count-number-of-teams) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/NiladriChatterje/dsa-journey/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/NiladriChatterje/dsa-journey/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 ## Greedy
@@ -314,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/NiladriChatterje/dsa-journey/tree/master/0342-power-of-four) |
+| [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Recursion
 |  |
@@ -358,4 +360,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
+## Memoization
+|  |
+| ------- |
+| [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 <!---LeetCode Topics End-->
