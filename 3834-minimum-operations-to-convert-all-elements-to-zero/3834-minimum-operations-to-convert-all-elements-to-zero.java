@@ -1,7 +1,7 @@
 class Solution {
     public int minOperations(int[] nums) {
         int count = 0;
-        List<Integer> s = new ArrayList<>();
+        List<Integer> s = new ArrayList<>(nums.length);
         for (int a : nums) {
             while (!s.isEmpty() && s.get(s.size() - 1) > a) {
                 s.remove(s.size() - 1);
