@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
 | [2288-count-operations-to-obtain-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/2288-count-operations-to-obtain-zero) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3462-vowels-game-in-a-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/3462-vowels-game-in-a-string) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/NiladriChatterje/dsa-journey/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
@@ -267,6 +269,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1585-the-kth-factor-of-n](https://github.com/NiladriChatterje/dsa-journey/tree/master/1585-the-kth-factor-of-n) |
+| [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Binary Search
 |  |
