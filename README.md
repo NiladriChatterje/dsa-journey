@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
+| [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
+| [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 ## String
 |  |
@@ -378,4 +380,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
+## Prefix Sum
+|  |
+| ------- |
+| [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
 <!---LeetCode Topics End-->
