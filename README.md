@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/0040-combination-sum-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/NiladriChatterje/dsa-journey/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0474-ones-and-zeroes](https://github.com/NiladriChatterje/dsa-journey/tree/master/0474-ones-and-zeroes) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/NiladriChatterje/dsa-journey/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [0830-largest-triangle-area](https://github.com/NiladriChatterje/dsa-journey/tree/master/0830-largest-triangle-area) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
