@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [0830-largest-triangle-area](https://github.com/NiladriChatterje/dsa-journey/tree/master/0830-largest-triangle-area) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/NiladriChatterje/dsa-journey/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
 | [1196-filling-bookcase-shelves](https://github.com/NiladriChatterje/dsa-journey/tree/master/1196-filling-bookcase-shelves) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/NiladriChatterje/dsa-journey/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -346,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0191-number-of-1-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/NiladriChatterje/dsa-journey/tree/master/0342-power-of-four) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/NiladriChatterje/dsa-journey/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/NiladriChatterje/dsa-journey/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
