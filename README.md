@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/NiladriChatterje/dsa-journey/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/NiladriChatterje/dsa-journey/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3610-find-x-sum-of-all-k-long-subarrays-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3610-find-x-sum-of-all-k-long-subarrays-i) |
@@ -409,4 +411,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/NiladriChatterje/dsa-journey/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 <!---LeetCode Topics End-->
