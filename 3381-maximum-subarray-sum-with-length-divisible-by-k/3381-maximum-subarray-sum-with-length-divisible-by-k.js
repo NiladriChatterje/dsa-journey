@@ -10,18 +10,18 @@ var maxSubarraySum = function(nums, k) {
 
     let prefix = 0;
     let answer = -1e30;
-
+    let mod;
     for (let i = 0; i < nums.length; i++) {
         prefix += nums[i];
-        const mod = (i + 1) % k;
+        mod = (i + 1) % k;
 
-        if (minPrefix[mod] !== INF) {
+        if (minPrefix[mod] !== INF) 
             answer = Math.max(answer, prefix - minPrefix[mod]);
-        }
+        
 
-        if (prefix < minPrefix[mod]) {
+        if (prefix < minPrefix[mod]) 
             minPrefix[mod] = prefix;
-        }
+        
     }
 
     return answer;
