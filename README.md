@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-sort-array-by-increasing-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1813-maximum-erasure-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/1813-maximum-erasure-value) |
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -133,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/NiladriChatterje/dsa-journey/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -205,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/1741-sort-array-by-increasing-frequency) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -308,6 +311,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3790-fruits-into-baskets-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3791-fruits-into-baskets-iii) |
