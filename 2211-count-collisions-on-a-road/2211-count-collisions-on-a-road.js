@@ -3,12 +3,11 @@
  * @return {number}
  */
 var countCollisions = function(directions) {
-    direction = directions.split('');
     let numberOfCollisions = 0;
     let R= 0;
     let stacked = undefined
-    for(let i=0; i<direction.length;i++){
-        if(direction[i] == 'L'){
+    for(let i=0; i<directions.length;i++){
+        if(directions[i] == 'L'){
             if(stacked && stacked == 'R' && R>0){
                 numberOfCollisions += 2;
                 R--;
@@ -21,7 +20,7 @@ var countCollisions = function(directions) {
                 
             continue;
         }
-        else if(direction[i] == 'S'){
+        else if(directions[i] == 'S'){
            numberOfCollisions += R;
            R = 0;
            stacked = 'S';
