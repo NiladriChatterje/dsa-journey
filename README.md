@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/NiladriChatterje/dsa-journey/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2211-count-collisions-on-a-road](https://github.com/NiladriChatterje/dsa-journey/tree/master/2211-count-collisions-on-a-road) |
 | [2337-remove-digit-from-number-to-maximize-result](https://github.com/NiladriChatterje/dsa-journey/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
@@ -273,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/NiladriChatterje/dsa-journey/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/NiladriChatterje/dsa-journey/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2211-count-collisions-on-a-road](https://github.com/NiladriChatterje/dsa-journey/tree/master/2211-count-collisions-on-a-road) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Sliding Window
 |  |
@@ -326,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [2211-count-collisions-on-a-road](https://github.com/NiladriChatterje/dsa-journey/tree/master/2211-count-collisions-on-a-road) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2288-count-operations-to-obtain-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/2288-count-operations-to-obtain-zero) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/2343-count-unguarded-cells-in-the-grid) |
