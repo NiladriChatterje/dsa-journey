@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0759-set-intersection-size-at-least-two](https://github.com/NiladriChatterje/dsa-journey/tree/master/0759-set-intersection-size-at-least-two) |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [0830-largest-triangle-area](https://github.com/NiladriChatterje/dsa-journey/tree/master/0830-largest-triangle-area) |
+| [0944-delete-columns-to-make-sorted](https://github.com/NiladriChatterje/dsa-journey/tree/master/0944-delete-columns-to-make-sorted) |
 | [0948-sort-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/0948-sort-an-array) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/NiladriChatterje/dsa-journey/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1063-best-sightseeing-pair](https://github.com/NiladriChatterje/dsa-journey/tree/master/1063-best-sightseeing-pair) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/NiladriChatterje/dsa-journey/tree/master/0005-longest-palindromic-substring) |
 | [0474-ones-and-zeroes](https://github.com/NiladriChatterje/dsa-journey/tree/master/0474-ones-and-zeroes) |
 | [0664-strange-printer](https://github.com/NiladriChatterje/dsa-journey/tree/master/0664-strange-printer) |
+| [0944-delete-columns-to-make-sorted](https://github.com/NiladriChatterje/dsa-journey/tree/master/0944-delete-columns-to-make-sorted) |
 | [1250-longest-common-subsequence](https://github.com/NiladriChatterje/dsa-journey/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/NiladriChatterje/dsa-journey/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/NiladriChatterje/dsa-journey/tree/master/1302-delete-characters-to-make-fancy-string) |
