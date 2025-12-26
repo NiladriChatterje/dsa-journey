@@ -17,7 +17,7 @@ class Solution {
             }
 
             if(customers.charAt(customer)=='Y')
-                yCount = yCount <= 0?0:yCount-1;
+                yCount = Math.max(0,yCount-1);
             else
                 nCount++;            
         }
