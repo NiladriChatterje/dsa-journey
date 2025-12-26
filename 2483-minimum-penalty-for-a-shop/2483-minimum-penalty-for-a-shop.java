@@ -24,8 +24,6 @@ class Solution {
         if(yCount+nCount<penalty)
             minTime=customer;
             
-
         return minTime;
-
     }
 }
