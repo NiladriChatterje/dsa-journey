@@ -1,5 +1,5 @@
 class Solution {
-    private static final int[][] DIRECTIONS = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
+    private static final int[][] DIRECTIONS = {{0, 1},{0, -1},{1, 0},{-1, 0}};
     
     public int latestDayToCross(int row, int col, int[][] cells) {
         int lo = 0, hi = cells.length - 1;
@@ -10,9 +10,8 @@ class Solution {
             if (canCross(mid, cells, row, col)) {
                 result = mid;
                 lo = mid + 1;
-            } else {
+            } else 
                 hi = mid - 1;
-            }
         }
         
         return result+1;
@@ -21,19 +20,19 @@ class Solution {
     private boolean canCross(int days, int[][] cells, int row, int col) {
         boolean[][] flooded = new boolean[row][col];
         
-        for (int i = 0; i <= days; i++) {
+        for (int i = 0; i <= days; i++) 
             flooded[cells[i][0] - 1][cells[i][1] - 1] = true;
-        }
+        
         
         Queue<int[]> queue = new ArrayDeque<>();
         boolean[][] visited = new boolean[row][col];
         
-        for (int j = 0; j < col; j++) {
+        for (int j = 0; j < col; j++) 
             if (!flooded[0][j]) {
                 queue.offer(new int[]{0, j});
                 visited[0][j] = true;
             }
-        }
+        
         
         if (queue.isEmpty()) return false;
         
