@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1813-maximum-erasure-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/1813-maximum-erasure-value) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -82,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0840-magic-squares-in-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/0840-magic-squares-in-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/NiladriChatterje/dsa-journey/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [1972-rotating-the-box](https://github.com/NiladriChatterje/dsa-journey/tree/master/1972-rotating-the-box) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/NiladriChatterje/dsa-journey/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
 ## Binary Indexed Tree
@@ -348,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0792-binary-search](https://github.com/NiladriChatterje/dsa-journey/tree/master/0792-binary-search) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/NiladriChatterje/dsa-journey/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3790-fruits-into-baskets-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3790-fruits-into-baskets-ii) |
@@ -377,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
 ## Trie
 |  |
@@ -451,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
 ## Memoization
 |  |
