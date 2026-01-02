@@ -6,6 +6,6 @@ class Solution {
             if(!s.add(i))
               return i;
         }
-        return nums[nums.length-1];
+        return 0;
     }
 }
