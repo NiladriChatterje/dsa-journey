@@ -13,7 +13,7 @@ class Solution {
                 continue;
             }
 
-            if(set.contains(num))
+            if(!set.add(num))
                 continue;
             
             j=1;
