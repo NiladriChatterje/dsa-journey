@@ -58,7 +58,14 @@ class Solution {
     }
     public int sumFourDivisors(int[] nums) {
         int sum = 0;
+        Map<Integer,Integer> map = new HashMap<>();
+        int fetch;
         for(int i = 0; i < nums.length; i++) {
+            fetch = map.getOrDefault(nums[i],-1);
+            if(fetch != -1){
+                sum += fetch;
+                continue;
+            }
             sum += factors(nums[i]);
         }
         return sum;
