@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1262-greatest-sum-divisible-by-three](https://github.com/NiladriChatterje/dsa-journey/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1333-sort-the-jumbled-numbers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1333-sort-the-jumbled-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1390-four-divisors](https://github.com/NiladriChatterje/dsa-journey/tree/master/1390-four-divisors) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/NiladriChatterje/dsa-journey/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/NiladriChatterje/dsa-journey/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -331,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/NiladriChatterje/dsa-journey/tree/master/0830-largest-triangle-area) |
 | [0840-magic-squares-in-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/0840-magic-squares-in-grid) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1390-four-divisors](https://github.com/NiladriChatterje/dsa-journey/tree/master/1390-four-divisors) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/NiladriChatterje/dsa-journey/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
