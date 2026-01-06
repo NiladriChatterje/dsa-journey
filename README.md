@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/NiladriChatterje/dsa-journey/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
@@ -390,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
@@ -480,4 +482,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/NiladriChatterje/dsa-journey/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
+## Tree
+|  |
+| ------- |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 <!---LeetCode Topics End-->
