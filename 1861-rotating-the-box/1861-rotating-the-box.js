@@ -27,12 +27,7 @@ var rotateTheBox = function(boxGrid) {
         }
     }
 
-    const res = new Array(boxGrid[0].length);
-    let x = 0;
-    while(x < boxGrid[0].length){
-        res[x] = new Array(boxGrid.length);
-        x++;
-    }
+    const res = Array.from({length: boxGrid[0].length}, () => new Array(boxGrid.length));
 
     for(let i=0; i<boxGrid.length; i++)
         for(let j=0; j<boxGrid[0].length;j++)
