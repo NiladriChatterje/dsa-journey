@@ -1,33 +1,55 @@
 class Solution {
     public int[][] rotateGrid(int[][] grid, int k) {
-        int T = 0, L = 0;
-        int B = grid.length - 1, R = grid[0].length - 1;
 
-        while (T < B && L < R) {
-            int len = B - T, wid = R - L;
-            int perimeter = 2 * len + 2 * wid;
-            int r = k % perimeter;
+        int rows = grid.length;
+        int cols = grid[0].length;
 
-            while (r-- > 0) {
-                int tmp = grid[T][L];
+        int totalLayers = Math.min(rows, cols) / 2;
 
-                for (int i = L; i < R; i++)
-                    grid[T][i] = grid[T][i + 1];
+        for(int layer = 0; layer < totalLayers; layer++) {
 
-                for (int i = T; i < B; i++)
-                    grid[i][R] = grid[i + 1][R];
+            ArrayList<Integer> elements = new ArrayList<>();
 
-                for (int i = R; i > L; i--)
-                    grid[B][i] = grid[B][i - 1];
+            int top = layer;
+            int left = layer;
 
-                for (int i = B; i > T; i--)
-                    grid[i][L] = grid[i - 1][L];
+            int bottom = rows - layer - 1;
+            int right = cols - layer - 1;
 
-                grid[T + 1][L] = tmp;
+            for(int col = left; col <= right; col++)
+                elements.add(grid[top][col]);
+
+            for(int row = top + 1; row <= bottom - 1; row++)
+                elements.add(grid[row][right]);
+
+            for(int col = right; col >= left; col--)
+                elements.add(grid[bottom][col]);
+
+            for(int row = bottom - 1; row >= top + 1; row--)
+                elements.add(grid[row][left]);
+
+            int size = elements.size();
+            int index = k % size;
+
+            for(int col = left; col <= right; col++) {
+                grid[top][col] = elements.get(index);
+                index = (index + 1) % size;
             }
 
-            T++; L++;
-            B--; R--;
+            for(int row = top + 1; row <= bottom - 1; row++) {
+                grid[row][right] = elements.get(index);
+                index = (index + 1) % size;
+            }
+
+            for(int col = right; col >= left; col--) {
+                grid[bottom][col] = elements.get(index);
+                index = (index + 1) % size;
+            }
+
+            for(int row = bottom - 1; row >= top + 1; row--) {
+                grid[row][left] = elements.get(index);
+                index = (index + 1) % size;
+            }
         }
 
         return grid;
