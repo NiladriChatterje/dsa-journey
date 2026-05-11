@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2472-build-a-matrix-with-conditions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2472-build-a-matrix-with-conditions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
+| [2553-separate-the-digits-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2553-separate-the-digits-in-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
@@ -398,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2288-count-operations-to-obtain-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/2288-count-operations-to-obtain-zero) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/NiladriChatterje/dsa-journey/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2402-meeting-rooms-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2402-meeting-rooms-iii) |
+| [2553-separate-the-digits-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2553-separate-the-digits-in-an-array) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3790-fruits-into-baskets-ii) |
 ## Linked List
