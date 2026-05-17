@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1196-filling-bookcase-shelves](https://github.com/NiladriChatterje/dsa-journey/tree/master/1196-filling-bookcase-shelves) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/NiladriChatterje/dsa-journey/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/NiladriChatterje/dsa-journey/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
+| [1306-jump-game-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/1306-jump-game-iii) |
 | [1333-sort-the-jumbled-numbers](https://github.com/NiladriChatterje/dsa-journey/tree/master/1333-sort-the-jumbled-numbers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1390-four-divisors](https://github.com/NiladriChatterje/dsa-journey/tree/master/1390-four-divisors) |
@@ -321,6 +322,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NiladriChatterje/dsa-journey/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1306-jump-game-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/1306-jump-game-iii) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
 | [2171-second-minimum-time-to-reach-destination](https://github.com/NiladriChatterje/dsa-journey/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [3863-power-grid-maintenance](https://github.com/NiladriChatterje/dsa-journey/tree/master/3863-power-grid-maintenance) |
@@ -418,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/NiladriChatterje/dsa-journey/tree/master/0207-course-schedule) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/NiladriChatterje/dsa-journey/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
+| [1306-jump-game-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/1306-jump-game-iii) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/NiladriChatterje/dsa-journey/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1970-last-day-where-you-can-still-cross](https://github.com/NiladriChatterje/dsa-journey/tree/master/1970-last-day-where-you-can-still-cross) |
