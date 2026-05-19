@@ -18,14 +18,14 @@ class Solution {
         }
 
 
-        while(i<len1){
+        while(i<len1 && nums1[i] <= nums2[j-1]){
              if(nums1[i] == nums2[j-1])
                 return nums1[i];
             i++;
         }
 
 
-        while(j<len2){
+        while(j<len2 && nums1[i-1] >= nums2[j]){
              if(nums1[i-1] == nums2[j])
                 return nums1[j];
             j++;
