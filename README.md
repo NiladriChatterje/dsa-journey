@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/NiladriChatterje/dsa-journey/tree/master/2553-separate-the-digits-in-an-array) |
 | [2625-increment-submatrices-by-one](https://github.com/NiladriChatterje/dsa-journey/tree/master/2625-increment-submatrices-by-one) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3074-apple-redistribution-into-boxes](https://github.com/NiladriChatterje/dsa-journey/tree/master/3074-apple-redistribution-into-boxes) |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2402-meeting-rooms-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/2402-meeting-rooms-iii) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2540-minimum-common-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/2540-minimum-common-value) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
@@ -455,6 +457,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-binary-prefix-divisible-by-5](https://github.com/NiladriChatterje/dsa-journey/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/NiladriChatterje/dsa-journey/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/NiladriChatterje/dsa-journey/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Recursion
 |  |
