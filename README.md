@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3396-valid-word](https://github.com/NiladriChatterje/dsa-journey/tree/master/3396-valid-word) |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2540-minimum-common-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/2540-minimum-common-value) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/NiladriChatterje/dsa-journey/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3120-count-the-number-of-special-characters-i) |
+| [3121-count-the-number-of-special-characters-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/NiladriChatterje/dsa-journey/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
