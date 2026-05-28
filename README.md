@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1](https://github.com/NiladriChatterje/dsa-journey/tree/master/2753-minimum-number-of-operations-to-make-all-array-elements-equal-to-1) |
 | [3074-apple-redistribution-into-boxes](https://github.com/NiladriChatterje/dsa-journey/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/NiladriChatterje/dsa-journey/tree/master/3075-maximize-happiness-of-selected-children) |
+| [3093-longest-common-suffix-queries](https://github.com/NiladriChatterje/dsa-journey/tree/master/3093-longest-common-suffix-queries) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/NiladriChatterje/dsa-journey/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/NiladriChatterje/dsa-journey/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -136,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2483-minimum-penalty-for-a-shop](https://github.com/NiladriChatterje/dsa-journey/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2502-sort-the-people](https://github.com/NiladriChatterje/dsa-journey/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/NiladriChatterje/dsa-journey/tree/master/2727-number-of-senior-citizens) |
+| [3093-longest-common-suffix-queries](https://github.com/NiladriChatterje/dsa-journey/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3235-minimum-cost-to-convert-string-i) |
@@ -441,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/NiladriChatterje/dsa-journey/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [3093-longest-common-suffix-queries](https://github.com/NiladriChatterje/dsa-journey/tree/master/3093-longest-common-suffix-queries) |
 ## Segment Tree
 |  |
 | ------- |
