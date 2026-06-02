@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/NiladriChatterje/dsa-journey/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3625-count-number-of-trapezoids-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3625-count-number-of-trapezoids-ii) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/NiladriChatterje/dsa-journey/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3791-fruits-into-baskets-iii) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/NiladriChatterje/dsa-journey/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/NiladriChatterje/dsa-journey/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/NiladriChatterje/dsa-journey/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/NiladriChatterje/dsa-journey/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Enumeration
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2540-minimum-common-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/2540-minimum-common-value) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Graph
 |  |
 | ------- |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3531-count-covered-buildings](https://github.com/NiladriChatterje/dsa-journey/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/NiladriChatterje/dsa-journey/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/NiladriChatterje/dsa-journey/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -411,6 +415,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2141-maximum-running-time-of-n-computers](https://github.com/NiladriChatterje/dsa-journey/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/NiladriChatterje/dsa-journey/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2540-minimum-common-value](https://github.com/NiladriChatterje/dsa-journey/tree/master/2540-minimum-common-value) |
+| [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/NiladriChatterje/dsa-journey/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/NiladriChatterje/dsa-journey/tree/master/3791-fruits-into-baskets-iii) |
 | [3827-implement-router](https://github.com/NiladriChatterje/dsa-journey/tree/master/3827-implement-router) |
